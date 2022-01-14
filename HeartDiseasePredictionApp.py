@@ -10,7 +10,7 @@ import numpy as np
 import pickle            # for loading the saved model 
 import streamlit as st   # for creating the web page
 
-loaded_model = pickle.load(open('/Users/bunty/VS Code/MachineLearning/Heart-Disease-Prediction/trained_heart_model.sav', 'rb'))
+loaded_model = pickle.load(open('./trained_heart_model.sav', 'rb'))
 
 def heart_disease_prediction(input_data):
     
