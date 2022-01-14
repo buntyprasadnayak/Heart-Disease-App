@@ -3,7 +3,7 @@ import pickle
 
 
 #loading the saved Model
-loaded_model = pickle.load(open('/Users/bunty/VS Code/MachineLearning/Heart-Disease-Prediction/trained_heart_model.sav', 'rb'))
+loaded_model = pickle.load(open('./trained_heart_model.sav', 'rb'))
 
 input_data =(42,0,1,160,254,0,0,112,0,2.4,3,0,2)
 
